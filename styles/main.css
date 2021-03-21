@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --gray: #cccc;
+    --white: white;
+    --whitehover: rgb(223, 222, 222);
+    --blue: cornflowerblue;
+    --bluehover: rgb(73, 111, 184);
+    --darkgray: rgb(36, 36, 36);
+    --darkgrayhover: rgb(12, 12, 12);
+    --red: rgb(196, 50, 50);
+    --redhover: rgb(139, 34, 34);
+    --purple: rgb(122, 21, 122);
+    --purplehover: rgb(92, 13, 92);
+    --golden: rgb(243, 204, 29);
+    --goldenhover: rgb(218, 183, 29);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.container{
+    margin-right: 30rem;
+    margin-left: 30rem;
+    text-align: center;
+    background-color: var(--gray); 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1rem;
+}
+
+div {
+    margin: 1rem;
+}
+
+.title {
+    margin: 2rem;
+    text-decoration: underline;
+}
+
+input {
+    border-radius: 5px;
+    border-style: solid;
+    padding: 1rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: var(--darkgray);
+    background-color: var(--gray);
+    text-align: center;
+    padding: 1rem;
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: var(--whitehover);
+}
+
+.btn-blue {
+    background-color: var(--blue);
+    color: white;
+}
+
+.btn-blue:hover{
+    background-color: var(--bluehover);
+}
+
+.btn-darkgray {
+    background-color: var(--darkgray);
+    color: white;
+}
+
+.btn-darkgray:hover{
+    background-color: var(--darkgrayhover);
+}
+
+.btn-red {
+    background-color: var(--red);
+    color: white;
+}
+
+.btn-red:hover{
+    background-color: var(--redhover);
+}
+
+.btn-purple {
+    background-color: var(--purple);
+    color: white;
+}
+
+.btn-purple:hover{
+    background-color: var(--purplehover);
+}
+
+.btn-especial {
+    background-color: var(--golden);
+    color: white;
+}
+
+.btn-especial:hover{
+    background-color: var(--goldenhover);
+}

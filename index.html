@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/main.css" id="theme-selector">
+
+    <title>Simple calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Calculadora</h1>
+        <input type="text" id="valor1" name="valor1" placeholder="Primer valor">
+        <input type="text" id="valor2" name="valor2" placeholder="Segundo valor">
+        <div class="button-row">
+            <button id="sumar" class="btn btn-blue">Sumar</button>
+            <button id="restar" class="btn btn-darkgray">Restar</button>
+            <button id="multiplicar" class="btn btn-red">Multiplicar</button>
+            <button id="dividir" class="btn btn-purple">Dividir</button>
+            <button id="tema" class="btn btn-especial">Modo oscuro</button>
+        </div>
+        <div class="resultado">
+            <h1 id="resultadoH1"></h1>
+        </div>
+    </div>
+
+    <footer>
+        <small>Adrian Ozuna</small>
+    </footer>
+
+    <script src="./script/buttons.js"></script>
+</body>
+</html>

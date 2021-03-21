@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --darkbg: rgba(0, 0, 0, 0.932);
+    --gray: rgba(29, 29, 29, 0.8);
+    --white: white;
+    --whitehover: rgb(223, 222, 222);
+    --blue: cornflowerblue;
+    --bluehover: rgb(73, 111, 184);
+    --darkgray: rgb(36, 36, 36);
+    --darkgrayhover: rgb(12, 12, 12);
+    --red: rgb(196, 50, 50);
+    --redhover: rgb(139, 34, 34);
+    --purple: rgb(122, 21, 122);
+    --purplehover: rgb(92, 13, 92);
+    --golden: rgb(243, 204, 29);
+    --goldenhover: rgb(218, 183, 29);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: var(--darkbg);
+}
+
+.container{
+    margin-right: 30rem;
+    margin-left: 30rem;
+    text-align: center;
+    background-color: var(--gray); 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1rem;
+}
+
+div {
+    margin: 1rem;
+}
+
+.title {
+    color: var(--white);
+    margin: 2rem;
+    text-decoration: underline;
+}
+
+input {
+    border-radius: 5px;
+    border-style: solid;
+    padding: 1rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: var(--darkgray);
+    background-color: var(--gray);
+    text-align: center;
+    padding: 1rem;
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--darkgray);
+    color: var(--white);
+}
+
+.btn:hover{
+    background-color: var(--darkgrayhover);
+}
+
+.btn-especial {
+    background-color: var(--golden);
+    color: white;
+}
+
+.btn-especial:hover{
+    background-color: var(--goldenhover);
+}
